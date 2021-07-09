@@ -1,0 +1,28 @@
+#navbar {
+    height: 52px;
+    background-color: #EBEBEB;
+}
+
+#navbar .navbar-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#navbar .navbar-item {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+#navbar .navbar-item:hover {
+    cursor: pointer;
+    color: #FDA31B;
+}
+
+#navbar .active {
+    color: #FDA31B;
+}
