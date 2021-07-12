@@ -9,7 +9,7 @@
 }
 
 #general .sidebar {
-  flex: 1;
+  flex: 1.2;
   background-color: #ebebeb;
   padding: 0 8px;
 }

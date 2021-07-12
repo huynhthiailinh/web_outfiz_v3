@@ -20,11 +20,22 @@
 }
 
 #blog-banner .blog-wrapper img {
-    max-height: 385px;
+    width: 97%;
+    object-fit: cover;
+    height: 100%;
 }
 
 #blog-banner .blog {
     position: relative;
+    flex: 3;
+}
+
+#blog-banner .blog-image {
+    height: 100%;
+}
+
+#blog-banner .sale-items {
+    flex: 2;
 }
 
 #blog-banner .blog-text {
