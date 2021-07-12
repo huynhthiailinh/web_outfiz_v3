@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Nunito:wght@700&display=swap');
+
+#banner .banner-wrapper {
+    height: 340px;
+    background-color: #FFD5A8;
+    margin: 52px 0;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 66px;
+    padding-left: 45px;
+    line-height: 340px;
+}
+
+#blog-banner .blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 52px 0;
+}
+
+#blog-banner .blog-wrapper img {
+    max-height: 385px;
+}
+
+#blog-banner .blog {
+    position: relative;
+}
+
+#blog-banner .blog-text {
+    display: flex;
+    position: absolute;
+    background-color: #FFC07C;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.62;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}

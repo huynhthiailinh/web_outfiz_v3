@@ -9,13 +9,13 @@
 }
 
 #general .sidebar {
-  flex: 1.1;
+  flex: 1;
   background-color: #ebebeb;
   padding: 0 8px;
 }
 
-#general .title > p {
-  line-height: 40px;
+#general .sidebar .title > p {
+  line-height: 50px;
   padding-left: 8px;
   font-size: 18px;
   font-weight: 600;
@@ -30,7 +30,7 @@
 }
 
 #general .search-by p {
-  line-height: 40px;
+  line-height: 46px;
   flex: 1;
   font-size: 15px;
   font-weight: 500;
@@ -60,7 +60,15 @@
 #general .product-portfolio {
   display: flex;
   align-items: center;
-  height: 52px;
+  height: 58px;
+}
+
+#general .product-portfolio:hover {
+  cursor: pointer;
+}
+
+#general .product-portfolio:last-child {
+  height: 72px;
 }
 
 #general .product-portfolio p {
@@ -82,17 +90,81 @@
 }
 
 #general .main-slider {
-  flex: 3.5;
+  flex: 4;
+  margin: 30px 30px 0;
+}
+
+#general .poster img {
+  width: 100%;
+}
+
+#general .poster .controls {
+  display: flex;
+  justify-content: center;
+}
+
+#general .poster .control {
+  height: 14px;
+  width: 14px;
+  margin: 14px 6px;
+  background-color: #d7d7d7;
+  border-radius: 50%;
+}
+
+#general .poster .control:hover,
+#general .poster .control.active {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+#general .new-selling-product {
+  margin-right: 10px;
+}
+
+#general #product-list .head {
+  margin: 40px 0 36px;
+  border: none;
+}
+
+#general #product-list .title {
+  font-size: 24px;
+}
+
+#general #product-list .title .active {
+  border-bottom: 5px solid #fcaf3b;
+}
+
+#general #product-list .title2 {
+  margin-left: 20px;
+}
+
+#general #product-list .controls {
+  width: 60px;
+  margin: 0;
+}
+
+#general #product-list .control {
+  height: 24px;
+  width: 24px;
+  font-size: 28px;
+}
+
+#general #product-list .product-item img {
+  max-height: 210px;
+}
+
+#general #product-list .product-information {
+  font-size: 14px;
 }
 
 #general .advertisement {
-  flex: 1.1;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: left;
 }
 
 #general .advertisement img {
-    width: 100%;
-    margin: 30px 0;
+  width: 100%;
+  margin: 30px 0;
 }

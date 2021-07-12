@@ -9,10 +9,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- css file link -->
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/navbar.css" />
     <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/productlist.css" />
+    <link rel="stylesheet" href="./assets/css/collection.css" />
+    <link rel="stylesheet" href="./assets/css/shopofweek.css" />
+    <link rel="stylesheet" href="./assets/css/banner.css" />
+    <link rel="stylesheet" href="./assets/css/trendy.css" />
+
+    <!-- image link -->
+
     <link rel="stylesheet" href="./assets/images/outfiz.png" />
     <link rel="stylesheet" href="./assets/images/heart.png" />
     <link rel="stylesheet" href="./assets/images/bag.png" />
@@ -21,6 +31,18 @@
     <link rel="stylesheet" href="./assets/images/we_are_open.png" />
     <link rel="stylesheet" href="./assets/images/cooperate.png" />
     <link rel="stylesheet" href="./assets/images/suzy_diamond.png" />
+    <link rel="stylesheet" href="./assets/images/new_product1.png" />
+    <link rel="stylesheet" href="./assets/images/new_product2.png" />
+    <link rel="stylesheet" href="./assets/images/new_product3.png" />
+    <link rel="stylesheet" href="./assets/images/new_product4.png" />
+    <link
+      rel="stylesheet"
+      href="./assets/images/autumn_winter_collection.png"
+    />
+    <link rel="stylesheet" href="./assets/images/guu_collection1.png" />
+    <link rel="stylesheet" href="./assets/images/guu_collection2.png" />
+    <link rel="stylesheet" href="./assets/images/guu_collection3.png" />
+    <link rel="stylesheet" href="./assets/images/for_her.png" />
   </head>
   <body>
     <div id="header">
@@ -185,14 +207,378 @@
               <p>Túi xách & balo</p>
               <div class="widen">+</div>
             </div>
-            <div class="line"></div>
           </div>
         </div>
-        <div class="main-slider"></div>
+        <div class="main-slider">
+          <div class="poster">
+            <img src="./assets/images/poster1.png" alt="poster1.png" />
+            <div class="controls">
+              <div class="control active"></div>
+              <div class="control"></div>
+              <div class="control"></div>
+              <div class="control"></div>
+            </div>
+          </div>
+          <div class="new-selling-product">
+            <div id="product-list">
+              <div class="head">
+                <div class="title">
+                  <div class="title1 active">Sản phẩm mới</div>
+                  <div class="title2">Sản phẩm bán chạy</div>
+                </div>
+                <div class="controls">
+                  <div class="control">
+                    <i class="fas fa-caret-left"></i>
+                  </div>
+                  <div class="control">
+                    <i class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="middle">
+                <div class="product-item">
+                  <img
+                    src="./assets/images/new_product1.png"
+                    alt="new_product1.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Đầm</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/new_product2.png"
+                    alt="new_product2.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Đầm</div>
+                    <div class="price">200.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/new_product3.png"
+                    alt="new_product3.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Đầm</div>
+                    <div class="price">150.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/new_product4.png"
+                    alt="new_product4.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Đầm</div>
+                    <div class="price">120.000đ</div>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="view-more-button">Xem thêm</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="advertisement">
           <img src="./assets/images/we_are_open.png" alt="we_are_open.png" />
           <img src="./assets/images/cooperate.png" alt="cooperate.png" />
           <img src="./assets/images/suzy_diamond.png" alt="suzy_diamond.png" />
+        </div>
+      </div>
+    </div>
+    <div id="collection">
+      <div class="container">
+        <div class="collection-wrapper">
+          <img
+            src="./assets/images/autumn_winter_collection.png"
+            alt="autumn_winter_collection.png"
+          />
+          <div class="collection-information">
+            <div class="collection-name">
+              <p>Bộ sưu tập</p>
+              <div class="name">thu đông</div>
+            </div>
+            <div class="shop-now-button">Shop now</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="shop-of-week">
+      <div class="container">
+        <div id="product-list">
+          <div class="head">
+            <div class="shop-of-week-title">Shop ấn tượng tuần</div>
+            <div class="right">
+              <div class="title">
+                <div class="title1">Sản phẩm mới</div>
+                <div class="title2 active">Bán chạy</div>
+              </div>
+              <div class="controls">
+                <div class="control">
+                  <i class="fas fa-caret-left"></i>
+                </div>
+                <div class="control">
+                  <i class="fas fa-caret-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="shop-list">
+            <div class="shop-name">Suzy Diamond</div>
+            <div class="shop-name">Uteez Vietnam</div>
+            <div class="shop-name">Outfiz</div>
+            <div class="shop-name">OLV Boutique</div>
+            <div class="shop-name">GUU Store</div>
+            <div class="shop-name">GUU Man</div>
+            <div class="shop-name">Salavi Shop</div>
+            <div class="shop-name">Lee&Tee</div>
+            <div class="shop-name">LoLem Clothing</div>
+          </div>
+          <div class="shop-collection">
+            <div class="shop-collection-wrapper">
+              <div class="collection">Bộ sưu tập</div>
+              <div class="shop-name">GUU Store</div>
+            </div>
+          </div>
+          <div class="shop-products">
+            <div id="product-list">
+              <div class="middle">
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection1.png"
+                    alt="guu_collection1.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Áo</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection2.png"
+                    alt="guu_collection2.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Chân váy</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection3.png"
+                    alt="guu_collection3.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Áo</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="product-list">
+              <div class="middle">
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection1.png"
+                    alt="guu_collection1.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Áo</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection2.png"
+                    alt="guu_collection2.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Chân váy</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <img
+                    src="./assets/images/guu_collection3.png"
+                    alt="guu_collection3.png"
+                  />
+                  <div class="product-information">
+                    <div class="product-type">Áo</div>
+                    <div class="price">100.000đ</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="product-list">
+              <div class="bottom">
+                <div class="view-more-button">Xem thêm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="banner">
+      <div class="container">
+        <div class="banner-wrapper">banner</div>
+      </div>
+    </div>
+    <div id="suggestion">
+      <div class="container">
+        <div id="product-list">
+          <div class="head">
+            <div class="title">
+              <div class="title1">Gợi ý cho bạn</div>
+            </div>
+            <div class="controls">
+              <div class="control">
+                <i class="fas fa-caret-left"></i>
+              </div>
+              <div class="control">
+                <i class="fas fa-caret-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="middle">
+            <div class="product-item">
+              <img
+                src="./assets/images/guu_collection1.png"
+                alt="guu_collection1.png"
+              />
+              <div class="product-information">
+                <div class="product-type">Áo</div>
+                <div class="price">100.000đ</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img
+                src="./assets/images/guu_collection1.png"
+                alt="guu_collection1.png"
+              />
+              <div class="product-information">
+                <div class="product-type">Áo</div>
+                <div class="price">100.000đ</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img
+                src="./assets/images/guu_collection2.png"
+                alt="guu_collection2.png"
+              />
+              <div class="product-information">
+                <div class="product-type">Chân váy</div>
+                <div class="price">100.000đ</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img
+                src="./assets/images/guu_collection3.png"
+                alt="guu_collection3.png"
+              />
+              <div class="product-information">
+                <div class="product-type">Áo</div>
+                <div class="price">100.000đ</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img
+                src="./assets/images/guu_collection3.png"
+                alt="guu_collection3.png"
+              />
+              <div class="product-information">
+                <div class="product-type">Áo</div>
+                <div class="price">100.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="view-more-button">Xem thêm</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="blog-banner">
+      <div class="container">
+        <div class="blog-wrapper">
+          <div class="blog">
+            <div class="blog-image">
+              <img src="./assets/images/blog.png" alt="blog.png" />
+            </div>
+            <div class="blog-text">Blog</div>
+          </div>
+          <div class="sale-items">
+            <img src="./assets/images/sale_items.png" alt="sale_items.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="trendy">
+      <div class="container">
+        <div id="product-list">
+          <div class="head">
+            <div class="title">
+              <div class="title1 active">Trendy</div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="trendy-content">
+            <div class="trendy-content-wrapper">
+              <div class="hashtag">#forher</div>
+              <img src="./assets/images/for_her.png" alt="for_her.png" />
+              <div class="shop-now-button">Shop now</div>
+            </div>
+          </div>
+          <div id="product-list">
+            <div class="middle">
+              <div class="product-item">
+                <img
+                  src="./assets/images/new_product1.png"
+                  alt="new_product1.png"
+                />
+                <div class="product-information">
+                  <div class="product-type">Đầm</div>
+                  <div class="price">100.000đ</div>
+                </div>
+              </div>
+              <div class="product-item">
+                <img
+                  src="./assets/images/new_product2.png"
+                  alt="new_product2.png"
+                />
+                <div class="product-information">
+                  <div class="product-type">Đầm</div>
+                  <div class="price">200.000đ</div>
+                </div>
+              </div>
+              <div class="product-item">
+                <img
+                  src="./assets/images/new_product3.png"
+                  alt="new_product3.png"
+                />
+                <div class="product-information">
+                  <div class="product-type">Đầm</div>
+                  <div class="price">150.000đ</div>
+                </div>
+              </div>
+              <div class="product-item">
+                <img
+                  src="./assets/images/new_product4.png"
+                  alt="new_product4.png"
+                />
+                <div class="product-information">
+                  <div class="product-type">Đầm</div>
+                  <div class="price">120.000đ</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

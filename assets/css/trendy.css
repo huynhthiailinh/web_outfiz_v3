@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@700&display=swap');
+
+#trendy .content {
+    display: flex;
+    background-color: #EBEBEB;
+    margin-top: -25px;
+}
+
+#trendy .content .trendy-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#trendy .trendy-content .hashtag {
+    color: #060606;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#trendy .content .trendy-product {
+    flex: 3;
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Nunito:wght@200;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+#collection .collection-wrapper {
+  display: flex;
+  margin: 52px 0;
+  background-color: #d3dce3;
+}
+
+#collection .collection-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  text-transform: uppercase;
+}
+
+#collection .collection-name {
+  width: fit-content;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+#collection .collection-name > p {
+  color: #191919;
+}
+
+#collection .collection-name > .name {
+  color: #3a3a3a;
+}
+
+#collection .shop-now-button {
+  width: 180px;
+  height: 36px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #252525;
+  line-height: 36px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+}
