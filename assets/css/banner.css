@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Nunito:wght@700&display=swap');
 
+#banner.yellow .banner-wrapper {
+    background-color: #FFD5A8;
+}
+
+#banner.grey .banner-wrapper {
+    background-color: #7D7D7D;
+}
+
 #banner .banner-wrapper {
     height: 340px;
-    background-color: #FFD5A8;
     margin: 52px 0;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -54,4 +61,23 @@
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
+}
+
+#trendy-outfits-banner .wrapper {
+    display: flex;
+    margin: 52px 0;
+}
+
+#trendy-outfits-banner .for-her {
+    flex: 1;
+    padding-right: 15px;
+}
+
+#trendy-outfits-banner .for-him {
+    flex: 1;
+    padding-left: 15px;
+}
+
+#trendy-outfits-banner img {
+    width: 100%;
 }
