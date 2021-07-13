@@ -106,10 +106,6 @@
   justify-content: center;
 }
 
-#general .poster .owl-carousel {
-  width: 1030px;
-}
-
 #general .poster .owl-dots {
   display: flex;
   justify-content: center;
@@ -163,10 +159,6 @@
   height: 24px;
   width: 24px;
   font-size: 28px;
-}
-
-#general .new-selling-product .owl-carousel {
-  width: 1030px;
 }
 
 #general #product-list .product-item img {
