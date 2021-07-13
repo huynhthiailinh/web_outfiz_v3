@@ -100,16 +100,22 @@
   margin: 30px 30px 0;
 }
 
-#general .poster img {
+#general .poster {
   width: 100%;
-}
-
-#general .poster .controls {
   display: flex;
   justify-content: center;
 }
 
-#general .poster .control {
+#general .poster .owl-carousel {
+  width: 1030px;
+}
+
+#general .poster .owl-dots {
+  display: flex;
+  justify-content: center;
+}
+
+#general .poster .owl-dot span{
   height: 14px;
   width: 14px;
   margin: 14px 6px;
@@ -117,8 +123,8 @@
   border-radius: 50%;
 }
 
-#general .poster .control:hover,
-#general .poster .control.active {
+#general .poster .owl-dot span:hover,
+#general .poster .owl-dot.active span {
   background-color: #000000;
   cursor: pointer;
 }
@@ -144,15 +150,23 @@
   margin-left: 20px;
 }
 
-#general #product-list .controls {
+#general #product-list .owl-nav {
   width: 60px;
   margin: 0;
+  position: absolute;
+  top: -70px;
+  right: 0;
 }
 
-#general #product-list .control {
+#general #product-list .owl-prev,
+#general #product-list .owl-next {
   height: 24px;
   width: 24px;
   font-size: 28px;
+}
+
+#general .new-selling-product .owl-carousel {
+  width: 1030px;
 }
 
 #general #product-list .product-item img {
