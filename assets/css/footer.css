@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+#footer {
+  margin-top: 52px;
+}
+
+.footer-wrapper {
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 52px 20px 30px 50px;
+}
+
+#footer .customer-support,
+#footer .outfiz,
+#footer .contact-us {
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+#footer .title {
+  color: #ded9dd;
+  line-height: 52px;
+}
+
+#footer .content {
+  color: #b7b2be;
+  line-height: 22px;
+  font-size: 14px;
+  list-style-position: inside;
+}
+
+#footer .li-style-none {
+    list-style-type: none;
+}
+
+#footer .map-icon,
+#footer .phone-icon,
+#footer .mail-icon {
+    width: 26px;
+}

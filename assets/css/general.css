@@ -29,6 +29,11 @@
   padding-left: 8px;
 }
 
+#general .search-by:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 #general .search-by p {
   line-height: 46px;
   flex: 1;
@@ -65,6 +70,7 @@
 
 #general .product-portfolio:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 #general .product-portfolio:last-child {

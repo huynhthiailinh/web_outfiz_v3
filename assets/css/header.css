@@ -15,6 +15,11 @@
     justify-content: center;
 }
 
+#header .outfiz-image:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 #header img {
     height: 70px;
 }
@@ -52,6 +57,12 @@
     color: #8F8F8F;
 }
 
+#header .online-store:hover,
+#header .outfiz-internet:hover {
+    cursor: pointer;
+    color: #FFAB28;
+}
+
 #header .signin-register {
     display: flex;
 }
@@ -66,6 +77,12 @@
     background-color: #FFB400;
     color: #252525;
     font-size: 10px;
+}
+
+#header .sign-in:hover,
+#header .register:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 #header .header-bottom {
@@ -99,6 +116,11 @@
     line-height: 40px;
 }
 
+#header .search-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 #header .like-cart {
     display: flex;
 }
@@ -110,6 +132,12 @@
     justify-content: center;
     align-items: center;
     margin: 0 16px;
+}
+
+#header .like:hover,
+#header .cart:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 #header .heart-icon,

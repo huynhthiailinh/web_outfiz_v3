@@ -11,6 +11,7 @@
 
 #banner .banner-wrapper {
     height: 340px;
+    background-color: #FFD5A8;
     margin: 52px 0;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -19,32 +20,26 @@
     padding-left: 45px;
     line-height: 340px;
 }
-
 #blog-banner .blog-wrapper {
     display: flex;
     justify-content: space-between;
     margin: 52px 0;
 }
-
 #blog-banner .blog-wrapper img {
     width: 97%;
     object-fit: cover;
     height: 100%;
 }
-
 #blog-banner .blog {
     position: relative;
     flex: 3;
 }
-
 #blog-banner .blog-image {
     height: 100%;
 }
-
 #blog-banner .sale-items {
     flex: 2;
 }
-
 #blog-banner .blog-text {
     display: flex;
     position: absolute;

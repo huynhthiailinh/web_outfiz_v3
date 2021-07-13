@@ -38,6 +38,15 @@
   line-height: 30px;
 }
 
+#shop-of-week .shop-list .shop-name:hover {
+  cursor: pointer;
+  color: #FDA31B;
+}
+
+#shop-of-week .shop-list .shop-name.active {
+  color: #FDA31B;
+}
+
 #shop-of-week .shop-collection {
   position: relative;
   flex: 1.2;

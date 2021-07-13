@@ -107,4 +107,5 @@
 
 #product-list .view-more-button:hover {
     cursor: pointer;
+    opacity: 0.7;
 }

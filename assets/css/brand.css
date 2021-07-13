@@ -1,0 +1,22 @@
+#brand .brand-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 52px 0;
+}
+
+#brand .arrow {
+  color: #cccccc;
+  font-size: 50px;
+}
+
+#brand .brand-list {
+  display: flex;
+  justify-content: center;
+}
+
+#brand .brand-list img {
+  flex: 1;
+  max-height: 150px;
+  margin: 0 40px;
+}
