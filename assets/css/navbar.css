@@ -1,6 +1,9 @@
 #navbar {
+    position: sticky;
+    top: 0;
     height: 52px;
     background-color: #EBEBEB;
+    z-index: 9;
 }
 
 #navbar .navbar-wrapper {
@@ -16,6 +19,13 @@
 #navbar .navbar-item {
     list-style-type: none;
     margin: 0 10px;
+}
+
+#navbar .navbar-item a:hover,
+#navbar .navbar-item a:active,
+#navbar .navbar-item a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #navbar .navbar-item:hover {
