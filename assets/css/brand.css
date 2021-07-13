@@ -6,8 +6,16 @@
 }
 
 #brand .arrow {
-  color: #cccccc;
-  font-size: 50px;
+  height: 40px;
+}
+
+#brand .arrow:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#brand .arrow img {
+  height: 100%;
 }
 
 #brand .brand-list {
@@ -17,6 +25,6 @@
 
 #brand .brand-list img {
   flex: 1;
-  max-height: 150px;
-  margin: 0 40px;
+  max-height: 120px;
+  margin: 0 20px;
 }
