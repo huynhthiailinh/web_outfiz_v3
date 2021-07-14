@@ -1,0 +1,9 @@
+@media (min-width: 1600px) {
+  #general .main-slider {
+    width: 65%;
+  }
+
+  #general .advertisement {
+    width: 15%;
+  }
+}

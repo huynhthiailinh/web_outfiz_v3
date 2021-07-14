@@ -12,6 +12,7 @@
   width: 20%;
   background-color: #ebebeb;
   padding: 0 8px;
+  height: fit-content;
 }
 
 #general .sidebar .title > p {
