@@ -1,0 +1,25 @@
+#sidebar {
+  display: none;
+  z-index: 5;
+}
+
+#sidebar {
+  width: 20%;
+  background-color: #ebebeb;
+  padding: 0 8px;
+  height: fit-content;
+}
+
+#sidebar .title > p {
+  line-height: 50px;
+  padding-left: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #060606;
+}
+
+#sidebar .line {
+  background-color: #b7b7b7;
+  height: 1px;
+}

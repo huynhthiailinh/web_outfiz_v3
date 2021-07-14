@@ -1,38 +1,148 @@
 #navbar {
-    position: sticky;
-    top: 0;
-    height: 52px;
-    background-color: #EBEBEB;
-    z-index: 9;
+  position: sticky;
+  top: 0;
+  height: 52px;
+  background-color: #ebebeb;
+  z-index: 9;
+}
+
+#navbar .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
 }
 
 #navbar .navbar-wrapper {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    font-size: 21px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #252525;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #252525;
 }
 
 #navbar .navbar-item {
-    list-style-type: none;
-    margin: 0 10px;
+  list-style-type: none;
+  margin: 0 10px;
 }
 
-#navbar .navbar-item a:hover,
 #navbar .navbar-item a:active,
 #navbar .navbar-item a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #navbar .navbar-item:hover {
-    cursor: pointer;
-    color: #FDA31B;
+  cursor: pointer;
+  color: #fda31b;
 }
 
 #navbar .active {
-    color: #FDA31B;
+  color: #fda31b;
+}
+
+#navbar .bars {
+  display: none;
+  font-size: 21px;
+  text-align: center;
+}
+
+#navbar .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 4;
+}
+
+#navbar .nav-mobile {
+  display: block;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+
+#navbar .sidebar {
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 0 8px;
+  height: fit-content;
+}
+
+#navbar .nav-close-icon i {
+  font-size: 24px;
+}
+
+#navbar .sidebar .title > p {
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #060606;
+}
+
+#navbar .search-by {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+#navbar .search-by p {
+  line-height: 36px;
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+  color: #060606;
+}
+
+#navbar .icon-wrapper {
+  display: flex;
+  align-items: center;
+  width: 32px;
+}
+
+#navbar .brand-icon {
+  height: 13px;
+}
+
+#navbar .store-icon {
+  height: 18px;
+}
+
+#navbar .advanced-icon {
+  color: #fbb03b;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#navbar .product-portfolio {
+  display: flex;
+  align-items: center;
+  height: 42px;
+}
+
+#navbar .product-portfolio p {
+  font-weight: 400;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+#navbar .product-portfolio .widen {
+  text-align: right;
+  flex: 1;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+#navbar .line {
+  background-color: #b7b7b7;
+  height: 1px;
 }

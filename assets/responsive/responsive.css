@@ -1,9 +1,227 @@
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
   #general .main-slider {
     width: 65%;
   }
 
   #general .advertisement {
     width: 15%;
+  }
+} */
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+  #header .search-wrapper {
+    width: 75%;
+  }
+
+  #general .sidebar {
+    width: 40%;
+  }
+
+  #general .sidebar .title > p {
+    line-height: 44px;
+  }
+
+  #general .search-by p {
+    line-height: 40px;
+  }
+
+  #general .product-portfolio {
+    line-height: 44px;
+  }
+
+  #general .right-wrapper {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  #general .advertisement {
+    flex-direction: row;
+  }
+
+  #general .advertisement img {
+    height: 140px;
+    width: 140px;
+    margin: 30px 10px 0;
+  }
+
+  #collection .collection-name {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+/* Tablet & Mobile */
+@media (min-width: 375px) and (max-width: 1024px) {
+  .container {
+    margin: 0;
+  }
+
+  #header .outfiz-image {
+    display: none !important;
+  }
+
+  #general #product-list .title {
+    font-size: 16px;
+  }
+
+  #collection .shop-now-button {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile */
+@media (min-width: 375px) and (max-width: 739px) {
+  #header {
+    position: sticky;
+    top: 0;
+  }
+
+  #header .container {
+    margin: 0 10px;
+  }
+
+  #header .header-wrapper {
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  #header .header-top {
+    display: none;
+  }
+
+  #header .header-bottom {
+    padding: 0;
+  }
+
+  #header .search-wrapper {
+    width: 70%;
+  }
+
+  #header .like,
+  #header .cart {
+    margin: 0 10px;
+  }
+
+  #navbar .navbar-wrapper {
+    font-size: 19px;
+  }
+
+  #navbar .bars {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #navbar .input-bars:checked ~ .overlay {
+    display: block;
+  }
+
+  #navbar .input-bars:checked ~ .nav-mobile {
+    display: block;
+    z-index: 5;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  #general .container {
+    display: block;
+  }
+
+  #general .sidebar {
+    display: none;
+  }
+
+  #general .main-slider {
+    width: 100%;
+    margin: 0;
+  }
+
+  #general #product-list .owl-nav {
+    display: none;
+  }
+
+  #general .advertisement {
+    display: none;
+  }
+
+  #collection .collection-wrapper {
+    flex-direction: column;
+  }
+
+  #collection .collection-name {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+
+  #shop-of-week .right {
+    display: none;
+  }
+
+  #shop-of-week .container > .middle {
+    flex-direction: column;
+  }
+
+  #shop-of-week .shop-collection {
+    display: none;
+  }
+
+  #blog-banner .blog-wrapper {
+    flex-direction: column;
+  }
+
+  #trendy .content {
+    flex-direction: column;
+  }
+
+  #trendy .content .trendy-content.trendy-content-for-her,
+  #trendy .content .trendy-content.trendy-content-for-him,
+  #trendy .content .trendy-content.trendy-content-for-kid {
+    padding: 0 0 52px;
+  }
+
+  #trendy .trendy-content img {
+    width: 60%;
+  }
+
+  #trendy .shop-now-button {
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #trendy #product-list .middle {
+    flex-direction: column;
+  }
+
+  #trendy-outfits-banner .wrapper {
+    flex-direction: column;
+  }
+
+  #trendy-outfits-banner .for-her,
+  #trendy-outfits-banner .for-him {
+    padding: 0 15px;
+  }
+
+  #trendy .content.only-him-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 30px 30px;
+  }
+
+  #footer .title {
+    font-size: 22px;
+    padding: 16px 0;
+  }
+
+  #footer .content {
+    list-style-type: none;
+  }
+
+  #footer .content li {
+    line-height: 30px;
   }
 }
