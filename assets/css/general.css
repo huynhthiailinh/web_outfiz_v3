@@ -9,7 +9,7 @@
 }
 
 #general .sidebar {
-  flex: 1.2;
+  width: 20%;
   background-color: #ebebeb;
   padding: 0 8px;
 }
@@ -65,7 +65,7 @@
 #general .product-portfolio {
   display: flex;
   align-items: center;
-  height: 58px;
+  height: 50px;
 }
 
 #general .product-portfolio:hover {
@@ -74,7 +74,7 @@
 }
 
 #general .product-portfolio:last-child {
-  height: 72px;
+  height: 56px;
 }
 
 #general .product-portfolio p {
@@ -96,7 +96,7 @@
 }
 
 #general .main-slider {
-  flex: 4;
+  width: 60%;
   margin: 30px 30px 0;
 }
 
@@ -151,7 +151,7 @@
   margin: 0;
   position: absolute;
   top: -70px;
-  right: 0;
+  right: 5px;
 }
 
 #general #product-list .owl-prev,
@@ -170,7 +170,7 @@
 }
 
 #general .advertisement {
-  flex: 1;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: left;

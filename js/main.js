@@ -15,20 +15,22 @@ newSellingProductOwl.owlCarousel({
   nav: true,
   autoplay: true,
   autoplayTimeout: 1000,
+  autoplayHoverPause: true,
   navText: [
     '<img src="assets/images/left_border_arrow.svg" alt="left_border_arrow.svg"/>',
     '<img src="assets/images/right_border_arrow.svg" alt="right_border_arrow.svg"/>',
   ],
 });
 
-var shopOfWeekOwl = $("#shop-of-week .shop-products .owl-carousel");
+var shopOfWeekOwl = $("#shop-of-week .owl-carousel");
 shopOfWeekOwl.owlCarousel({
   items: 1,
   loop: true,
   dots: false,
   nav: true,
   autoplay: true,
-  autoplayTimeout: 1000,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
   navText: [
     '<img src="assets/images/left_border_arrow.svg" alt="left_border_arrow.svg"/>',
     '<img src="assets/images/right_border_arrow.svg" alt="right_border_arrow.svg"/>',
@@ -43,6 +45,7 @@ shopOfWeekOwl.owlCarousel({
   nav: true,
   autoplay: true,
   autoplayTimeout: 1000,
+  autoplayHoverPause: true,
   navText: [
     '<img src="assets/images/left_border_arrow.svg" alt="left_border_arrow.svg"/>',
     '<img src="assets/images/right_border_arrow.svg" alt="right_border_arrow.svg"/>',
@@ -57,6 +60,7 @@ brandOwl.owlCarousel({
   nav: true,
   autoplay: true,
   autoplayTimeout: 1000,
+  autoplayHoverPause: true,
   navText: [
     '<img src="assets/images/left_arrow.svg" alt="left_arrow.svg" />',
     '<img src="assets/images/right_arrow.svg" alt="right_arrow.svg" />',

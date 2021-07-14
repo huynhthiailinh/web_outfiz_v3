@@ -83,6 +83,33 @@
 
 #shop-of-week .shop-products .owl-nav {
   position: absolute;
-  top: -100px;
+  display: flex;
+  width: 72px;
+  align-items: center;
+  margin: 0 30px 8px 78px;
+  top: -70px;
   right: 0;
+}
+
+#shop-of-week .owl-prev,
+#shop-of-week .owl-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  font-size: 36px;
+  color: #cccccc;
+}
+
+#shop-of-week .owl-prev img,
+#shop-of-week .owl-next img {
+  height: 100%;
+}
+
+#shop-of-week .owl-prev:hover,
+#shop-of-week .owl-next:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: #fff;
 }
