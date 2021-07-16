@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Nunito:wght@200;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
-#collection .collection-wrapper {
-  display: flex;
+#collection {
   margin: 52px 0;
-  background-color: #d3dce3;
-}
-
-#collection .collection-wrapper .collection-image {
-  flex: 1;
 }
 
 #collection .collection-image img {
@@ -19,7 +13,7 @@
 }
 
 #collection .collection-information {
-  flex: 1;
+  background-color: #d3dce3;
   display: flex;
   flex-direction: column;
   justify-content: center;

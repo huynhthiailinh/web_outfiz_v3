@@ -53,9 +53,6 @@
 
 /* Tablet & Mobile */
 @media (min-width: 375px) and (max-width: 1024px) {
-  .container {
-    margin: 0;
-  }
 
   #header .outfiz-image {
     display: none !important;
@@ -75,15 +72,6 @@
   #header {
     position: sticky;
     top: 0;
-  }
-
-  #header .container {
-    margin: 0 10px;
-  }
-
-  #header .header-wrapper {
-    padding-top: 10px;
-    margin: 0;
   }
 
   #header .header-top {
@@ -123,10 +111,6 @@
     transform: translateX(0);
   }
 
-  #general .container {
-    display: block;
-  }
-
   #general .sidebar {
     display: none;
   }
@@ -144,7 +128,7 @@
     display: none;
   }
 
-  #collection .collection-wrapper {
+  #collection .row {
     flex-direction: column;
   }
 
@@ -157,7 +141,7 @@
     display: none;
   }
 
-  #shop-of-week .container > .middle {
+  #shop-of-week .grid > .middle {
     flex-direction: column;
   }
 

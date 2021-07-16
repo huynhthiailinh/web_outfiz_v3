@@ -57,7 +57,7 @@ suggestionOwl.owlCarousel({
   loop: true,
   dots: false,
   nav: true,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 1000,
   autoplayHoverPause: true,
   navText: [

@@ -3,13 +3,11 @@
 /* Montserrat-SemiBold */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
 
-#general .container {
-  display: flex;
-  justify-content: space-between;
+#general {
+  margin-bottom: 52px;
 }
 
 #general .sidebar {
-  width: 20%;
   background-color: #ebebeb;
   padding: 0 8px;
   height: fit-content;
@@ -96,20 +94,17 @@
   height: 1px;
 }
 
-#general .right-wrapper {
-  display: flex;
-  width: 80%;
-}
-
 #general .main-slider {
-  width: 75%;
-  margin: 30px 30px 0;
+  margin-top: 30px;
 }
 
 #general .poster {
-  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+#general .poster img {
+  width: 100%;
 }
 
 #general .poster .owl-dots {
@@ -117,7 +112,7 @@
   justify-content: center;
 }
 
-#general .poster .owl-dot span{
+#general .poster .owl-dot span {
   height: 14px;
   width: 14px;
   margin: 14px 6px;
@@ -172,7 +167,6 @@
 }
 
 #general .advertisement {
-  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -180,5 +174,5 @@
 
 #general .advertisement img {
   width: 100%;
-  margin: 30px 0;
+  margin-top: 30px;
 }

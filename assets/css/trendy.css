@@ -1,35 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@700&display=swap');
 
-#trendy .content.for-her {
-    margin-top: -25px;
+#trendy .content {
+    background-color: #EBEBEB;
+    background-clip: content-box;
 }
 
-#trendy .content {
-    display: flex;
-    background-color: #EBEBEB;
+#trendy .content > .row:first-child {
     padding-top: 30px;
 }
 
-#trendy .content .trendy-content {
-    flex: 1;
+#trendy .trendy-content {
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
-#trendy .content .trendy-content.trendy-content-for-her {
-    padding-right: 30px;
-}
-
-#trendy .content .trendy-content.trendy-content-for-him {
-    padding-left: 30px;
-}
-
-#trendy .content .trendy-content.trendy-content-for-kid {
-    padding-right: 30px;
+#trendy .trendy-content.right {
+    justify-content: flex-end;
 }
 
 #trendy .trendy-content .hashtag {
+    text-align: center;
     color: #060606;
     font-size: 46px;
     font-family: 'Montserrat', sans-serif;
@@ -63,10 +53,6 @@
 #trendy .shop-now-button:hover {
     cursor: pointer;
     opacity: 0.7;
-}
-
-#trendy .trendy-products {
-    flex: 4;
 }
 
 #trendy #product-list .product-item {

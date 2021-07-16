@@ -22,3 +22,11 @@ html {
     margin: 0 55px;
     height: 100%;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.mar-bot-30px {
+    margin-bottom: 30px;
+}
