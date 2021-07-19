@@ -1,3 +1,7 @@
+#brand {
+  margin-bottom: 52px;
+}
+
 #brand .owl-carousel {
   display: flex;
   justify-content: center;

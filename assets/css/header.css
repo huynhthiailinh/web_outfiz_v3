@@ -20,6 +20,7 @@
 #header .row.header-top,
 #header .row.header-bottom {
     padding: 5px 0 10px;
+    justify-content: space-between;
 }
 
 #header .header-top {
@@ -96,7 +97,7 @@
 #header .search-icon {
     position: absolute;
     right: 40px;
-    color: #1D1D1B;
+    color: #5a5a42;
     font-size: 24px;
     line-height: 40px;
 }

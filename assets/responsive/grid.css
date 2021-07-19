@@ -21,9 +21,15 @@
   }
 }
 
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 923px) {
   .wide {
     width: 644px;
+  }
+}
+
+@media (min-width: 924px) and (max-width: 1023px) {
+  .wide {
+    width: 880px;
   }
 }
 
@@ -70,7 +76,7 @@
   }
 
   .c-0 {
-    display: none;
+    display: none !important;
   }
 
   .c-1 {
@@ -148,7 +154,7 @@
   }
 
   .m-0 {
-    display: none;
+    display: none !important;
   }
 
   .m-1,

@@ -50,6 +50,10 @@
   line-height: 38px;
 }
 
+#shop-of-week .shop-products .product-item {
+  margin-bottom: 30px;
+}
+
 #shop-of-week .shop-collection .shop-collection-wrapper {
   display: flex;
   flex-direction: column;

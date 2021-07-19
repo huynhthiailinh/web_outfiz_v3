@@ -1,64 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@700&display=swap");
 
 #trendy .content {
-    background-color: #EBEBEB;
-    background-clip: content-box;
+  background-color: #ebebeb;
+  background-clip: content-box;
 }
 
 #trendy .content > .row:first-child {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 #trendy .trendy-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #trendy .trendy-content.right {
-    justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+#trendy .product-item {
+  margin-bottom: 30px;
 }
 
 #trendy .trendy-content .hashtag {
-    text-align: center;
-    color: #060606;
-    font-size: 46px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
+  text-align: center;
+  color: #060606;
+  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 #trendy .trendy-content img {
-    width: 100%;
-    margin: 25px 0 40px;
+  width: 100%;
+  margin: 25px 0 40px;
 }
 
 #trendy .button-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #trendy .shop-now-button {
-    background-color: #252525;
-    height: 64px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    width: 170px;
-    text-align: center;
-    line-height: 64px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 8px;
-    font-size: 26px;
+  background-color: #252525;
+  height: 64px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 170px;
+  text-align: center;
+  line-height: 64px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  font-size: 26px;
 }
 
 #trendy .shop-now-button:hover {
-    cursor: pointer;
-    opacity: 0.7;
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 #trendy #product-list .product-item {
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 #trendy .content .trendy-product {
-    flex: 3;
+  flex: 3;
 }

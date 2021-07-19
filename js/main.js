@@ -10,6 +10,7 @@ posterOwl.owlCarousel({
 var newSellingProductOwl = $("#general .new-selling-product .owl-carousel");
 newSellingProductOwl.owlCarousel({
   loop: true,
+  margin: 10,
   dots: false,
   nav: true,
   autoplay: true,
@@ -24,7 +25,7 @@ newSellingProductOwl.owlCarousel({
     0: {},
     // breakpoint from 375 up
     375: {
-      items: 1,
+      items: 2,
     },
     // breakpoint from 740 up
     740: {
@@ -75,10 +76,10 @@ suggestionOwl.owlCarousel({
     },
     // breakpoint from 740 up
     740: {
-      items: 2,
+      items: 3,
     },
     // breakpoint from 1024 up
-    1024: {
+    1025: {
       items: 5,
     },
   },
@@ -123,8 +124,27 @@ recentlyOwl.owlCarousel({
   loop: true,
   dots: false,
   nav: true,
+  margin: 10,
   navText: [
     '<img src="assets/images/left_border_arrow.svg" alt="left_border_arrow.svg"/>',
     '<img src="assets/images/right_border_arrow.svg" alt="right_border_arrow.svg"/>',
   ],
+  responsive: {
+    // breakpoint from 0 up
+    0: {
+      items: 1,
+    },
+    // breakpoint from 375 up
+    375: {
+      items: 1,
+    },
+    // breakpoint from 740 up
+    740: {
+      items: 2,
+    },
+    // breakpoint from 1024 up
+    1024: {
+      items: 5,
+    },
+  },
 });
