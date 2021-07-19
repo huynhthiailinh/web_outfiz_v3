@@ -16,7 +16,10 @@
   font-size: 16px;
 }
 
-#product-list .title .title1,
+#product-list .title .title1 {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
 #product-list .title .title2 {
   text-transform: uppercase;
   margin-left: 20px;
@@ -40,6 +43,10 @@
   margin: 0 30px 8px 78px;
   top: -75px;
   right: 0;
+}
+
+#recently #product-list.top-right .owl-nav {
+  right: -20px;
 }
 
 #product-list .owl-prev,
