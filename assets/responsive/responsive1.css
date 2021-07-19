@@ -59,7 +59,7 @@
 }
 
 /* Tablet & Mobile */
-@media (min-width: 375px) and (max-width: 1024px) {
+@media (min-width: 375px) and (max-width: 1023px) {
   #header .outfiz-image {
     display: none !important;
   }
