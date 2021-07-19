@@ -16,6 +16,12 @@
   font-size: 16px;
 }
 
+#product-list .title .title1,
+#product-list .title .title2 {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
 #product-list .title .title1:hover,
 #product-list .title .title2:hover {
   cursor: pointer;
@@ -32,7 +38,7 @@
   width: 72px;
   align-items: center;
   margin: 0 30px 8px 78px;
-  top: -70px;
+  top: -75px;
   right: 0;
 }
 

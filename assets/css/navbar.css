@@ -66,10 +66,12 @@
   bottom: 0;
   transition: all 0.2s linear;
   z-index: 5;
+  overflow: hidden;
 }
 
 #navbar .input-bars:not(:checked) ~ .nav-mobile {
   width: 0;
+  visibility: hidden;
 }
 
 #navbar .input-bars:checked ~ .overlay {
@@ -77,13 +79,27 @@
 }
 
 #navbar .input-bars:checked ~ .nav-mobile {
-  width: 50%;
+  width: 100%;
+  overflow: visible;
+  visibility: visible;
 }
 
 #navbar .sidebar {
   background-color: #ebebeb;
   padding: 0 8px;
   height: fit-content;
+}
+
+#navbar .nav-close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 70px;
+  z-index: 6;
 }
 
 #navbar .nav-close-icon i {

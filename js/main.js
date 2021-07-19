@@ -72,7 +72,7 @@ suggestionOwl.owlCarousel({
     },
     // breakpoint from 375 up
     375: {
-      items: 1,
+      items: 2,
     },
     // breakpoint from 740 up
     740: {
@@ -136,7 +136,7 @@ recentlyOwl.owlCarousel({
     },
     // breakpoint from 375 up
     375: {
-      items: 1,
+      items: 2,
     },
     // breakpoint from 740 up
     740: {
